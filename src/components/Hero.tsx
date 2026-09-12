@@ -3,8 +3,8 @@ import { Check, ChevronDown, Code2, Zap } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative mx-auto flex min-h-[760px] max-w-6xl items-center px-5 pb-20 pt-36 lg:px-8 lg:pt-40">
-      <div className="pointer-events-none absolute -left-40 top-24 size-[520px] rounded-full bg-electric/10 blur-[130px]" />
-      <div className="pointer-events-none absolute right-[-180px] top-32 size-[500px] rounded-full bg-violet/10 blur-[140px]" />
+      <div className="pointer-events-none absolute -left-40 top-24 size-[300px] sm:size-[520px] rounded-full bg-electric/10 blur-[80px] sm:blur-[130px] [will-change:transform]" />
+      <div className="pointer-events-none absolute -left-40 top-24 size-[300px] sm:size-[520px] rounded-full bg-electric/10 blur-[80px] sm:blur-[130px] [will-change:transform]" />{" "}
       <div className="relative max-w-4xl">
         <h1 className="max-w-4xl text-[clamp(3.2rem,8vw,7.4rem)] font-semibold leading-[0.95] tracking-[-0.07em]">
           Desarrollo web <span className="text-gradient">a medida</span> para

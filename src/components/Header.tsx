@@ -10,10 +10,10 @@ export default function Header() {
           className="group flex items-center gap-3"
           aria-label="Ir al inicio"
         >
-          <span className="flex size-9 items-center justify-center rounded-xl border border-electric/40 bg-electric/10 font-mono text-sm font-bold text-electric shadow-[0_0_24px_rgba(86,166,255,0.15)]">
+          <span className="flex size-9 items-center justify-center rounded-xl border border-electric/40 bg-electric/10  text-sm font-bold text-electric shadow-[0_0_24px_rgba(86,166,255,0.15)]">
             &lt;/&gt;
           </span>
-          <span className="font-display text-sm font-semibold tracking-tight">
+          <span className="text-sm font-semibold tracking-tight">
             Camila<span className="text-electric">.dev</span>
           </span>
         </a>

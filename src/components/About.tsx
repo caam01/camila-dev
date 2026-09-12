@@ -22,7 +22,7 @@ export default function About() {
           </p>
           <div className="mt-12 grid gap-4 sm:grid-cols-2">
             <div className="rounded-2xl border border-white/10 bg-card/45 p-6">
-              <p className="font-display text-5xl font-semibold text-foreground">
+              <p className="text-5xl font-semibold text-foreground">
                 3<span className="text-electric">+</span>
               </p>
               <p className="mt-2 text-sm text-muted-foreground">

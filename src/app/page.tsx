@@ -12,8 +12,8 @@ export default function Page() {
       className="min-h-screen overflow-hidden bg-background text-foreground"
     >
       <Header />
-      {/* <Hero />
-      <Services />
+       <Hero />
+      {/*<Services />
       <About />
       <Contact /> */}
 

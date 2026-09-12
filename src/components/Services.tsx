@@ -51,23 +51,21 @@ export default function Services() {
           </h2>
         </div>
         <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
-          Construyo experiencias digitales que se sienten bien, funcionan
-          mejor y ayudan a que tu negocio crezca.
+          Construyo experiencias digitales que se sienten bien, funcionan mejor
+          y ayudan a que tu negocio crezca.
         </p>
       </div>
       <div className="grid gap-3 md:grid-cols-2">
         {services.map(({ icon: Icon, number, title, description }) => (
           <article
             key={title}
-            className="group rounded-2xl border border-white/10 bg-card/45 p-7 transition-all duration-300 hover:-translate-y-1 hover:border-electric/40 hover:bg-card/80"
+            className="group rounded-2xl border border-white/10 bg-card/45 p-7 transition-transform duration-300 hover:-translate-y-1 hover:border-electric/40 hover:bg-card/80"
           >
             <div className="mb-12 flex items-start justify-between">
               <div className="flex size-11 items-center justify-center rounded-xl border border-electric/20 bg-electric/10 text-electric">
                 <Icon className="size-5" />
               </div>
-              <span className=" text-xs text-muted-foreground">
-                {number}
-              </span>
+              <span className=" text-xs text-muted-foreground">{number}</span>
             </div>
             <h3 className="mb-3 text-2xl font-medium tracking-tight">
               {title}
@@ -75,7 +73,6 @@ export default function Services() {
             <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
               {description}
             </p>
-           
           </article>
         ))}
       </div>
